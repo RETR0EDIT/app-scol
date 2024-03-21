@@ -1,0 +1,14 @@
+<form (submit)="onFormSubmit($event)">
+  <div class="form-group">
+    <label for="search">Recherche:</label>
+    <input [(ngModel)]="searchValue" name="searchValue" type="text" class="form-control" id="search"
+      placeholder="Entrez le nom de l'étudiant">
+  </div>
+  <button type="submit" class="btn btn-primary">Rechercher</button>
+</form>
+<div class="margin">
+  <div *ngFor="let specialite of filteredSpecialite" class="container">
+    <span>{{ specialite._idSpec }}</span>
+    <span>{{ specialite._libelle }}</span>
+  </div>
+</div>

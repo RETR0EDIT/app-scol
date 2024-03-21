@@ -10,6 +10,9 @@ import { HomeComponent } from './component/home/home.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { EtudiantParisComponent } from './component/etudiant-paris/etudiant-paris.component';
 import { EtudiantHorsParisComponent } from './component/etudiant-hors-paris/etudiant-hors-paris.component';
+import { FormSpecialiteComponent } from './forms/form-specialite/form-specialite.component';
+import { FormEtudiantComponent } from './forms/form-etudiant/form-etudiant.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { EtudiantHorsParisComponent } from './component/etudiant-hors-paris/etud
     HomeComponent,
     FooterComponent,
     EtudiantParisComponent,
-    EtudiantHorsParisComponent
+    EtudiantHorsParisComponent,
+    FormSpecialiteComponent,
+    FormEtudiantComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

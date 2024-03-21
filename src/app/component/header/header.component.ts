@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { FormEtudiantComponent } from '../../forms/form-etudiant/form-etudiant.component';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',

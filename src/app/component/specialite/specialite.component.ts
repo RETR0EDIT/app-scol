@@ -14,6 +14,6 @@ export class SpecialiteComponent implements OnInit {
 
   ngOnInit() {
     this.specialites = this.specService.getSpecialites();
-    console.log(this.specialites);
+
   }
 }

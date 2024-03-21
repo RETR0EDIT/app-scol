@@ -12,6 +12,8 @@ const routes: Routes = [
   { path: 'specialite', component: SpecialiteComponent },
   { path: 'etudiant-paris', component: EtudiantParisComponent },
   { path: 'etudiant-hors-paris', component: EtudiantHorsParisComponent },
+
+
 ];
 
 @NgModule({
