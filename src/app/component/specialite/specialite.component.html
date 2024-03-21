@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID Spécialité</th>
+      <th>Libellé</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let specialite of specialites">
+      <td>{{ specialite._idSpec }}</td>
+      <td>{{ specialite._libelle }}</td>
+    </tr>
+  </tbody>
+</table>

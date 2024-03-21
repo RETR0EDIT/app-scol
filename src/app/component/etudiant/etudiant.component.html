@@ -1,0 +1,28 @@
+<table>
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prénom</th>
+      <th>Rue</th>
+      <th>Code Postal</th>
+      <th>Ville</th>
+      <th>Courriel</th>
+      <th>Genre</th>
+      <th>Âge</th>
+      <th>ID Candidat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let etudiant of etudiants">
+      <td>{{ etudiant._nom }}</td>
+      <td>{{ etudiant._prenom }}</td>
+      <td>{{ etudiant.rue }}</td>
+      <td>{{ etudiant._cp }}</td>
+      <td>{{ etudiant._ville }}</td>
+      <td>{{ etudiant.courriel }}</td>
+      <td>{{ etudiant._genre }}</td>
+      <td>{{ etudiant._age }}</td>
+      <td>{{ etudiant._idCandi }}</td>
+    </tr>
+  </tbody>
+</table>
